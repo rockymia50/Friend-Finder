@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Neighborhood Amigos</title>
+
+    <!-- Chosen -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+	<script src="https://code.jquery.com/jquery.js"></script>    
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	
+	<!-- Font Awesome Glyphicons -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+    <style>
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Header -->
+        <h2>Survey Questions</h2>
+        <hr>
+
+        <h3>
+            <strong>About You</strong>
+        </h3>
+        <h4>Name (Required)</h4>
+        <input type="text" id="name" class="form-control" required="">
+
+        <h4>Link to Photo Image (Required)</h4>
+        <input type="text" id="photo" class="form-control" required="">
+
+        <hr>
+
+        <!-- End Header -->
+
+        <h3>
+            <strong>Question 1</strong>
+        </h3>
+        <h4> Do you like the outdoors?</h4>
+
+        <form id="friendForm">
+        <select name="q1" class="chosen-select" id="q1">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+          </select>
+
+        <h3>
+            <strong>Question 2</strong>
+        </h3>
+        <h4> Like to spend free time at the movies?</h4>
+
+        <select class="chosen-select" id="q2">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+          </select>
+
+
+        <h3>
+            <strong>Question 3</strong>
+        </h3>
+        <h4> Public speaking gives you chills</h4>
+
+        <select class="chosen-select" id="q3">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+          </select>
+
+
+        <h3>
+                <strong>Question 4</strong>
+            </h3>
+            <h4> If you could exercise everyday... you would</h4>
+    
+            <select class="chosen-select" id="q4">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+              </select>
+    
+
+            <h3>
+                    <strong>Question 5</strong>
+                </h3>
+                <h4> Sleeping for 8hrs is a must</h4>
+        
+                <select class="chosen-select" id="q5">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                  </select>
+        
+
+                <h3>
+                        <strong>Question 6</strong>
+                    </h3>
+                    <h4> Netflix is a must</h4>
+            
+                    <select class="chosen-select" id="q6">
+                        <option value=""></option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                      </select>
+            
+
+                    <h3>
+                            <strong>Question 7</strong>
+                        </h3>
+                        <h4> Ice Cream is a sin</h4>
+                
+                        <select class="chosen-select" id="q7">
+                            <option value=""></option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                          </select>
+                
+
+                        <h3>
+                                <strong>Question 8</strong>
+                            </h3>
+                            <h4> Going out to eat at least 3 times a week</h4>
+                    
+                            <select class="chosen-select" id="q8">
+                                <option value=""></option>
+                                <option value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                              </select>
+                    
+
+                            <h3>
+                                    <strong>Question 9</strong>
+                                </h3>
+                                <h4> Love pets</h4>
+                        
+                                <select class="chosen-select" id="q9">
+                                    <option value=""></option>
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                  </select>
+                        
+
+
+                                <h3>
+                                        <strong>Question 10</strong>
+                                    </h3>
+                                    <h4> Like to be around lots of people.</h4>
+                            
+                                    <select class="chosen-select" id="q10">
+                                        <option value=""></option>
+                                        <option value="1">1 (Strongly Disagree)</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5 (Strongly Agree)</option>
+                                      </select>
+                            
+
+
+
+        <br>
+        <br>
+
+        <!-- Submit Button -->
+        <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit">
+            <i class="fa fa-check-circle" aria-hidden="true"></i>
+            Submit</button>
+        </form>
+
+        <hr>
+        <footer class="footer">
+            <div class="container">
+                <p>
+                    <a href="/api/friends">API Friends List</a> |
+                    <a href="https://github.com/afhaque/friendfinder">GitHub Repo</a>
+                </p>
+            </div>
+        </footer>
+
+    </div>
+    <script>
+        $(document).ready(function(){
+
+            $(".chosen-select").chosen();
+
+            $("#friendForm").submit(function(evt){
+                evt.preventDefault();
+                const url = '/api/friends';
+                const name = $('#name').val();
+                const photo = $('#photo').val();
+                const scores = [
+                    $('#q1').val(),
+                    $('#q2').val(),
+                    $('#q3').val(),
+                    $('#q4').val(),
+                    $('#q5').val(),
+                    $('#q6').val(),
+                    $('#q7').val(),
+                    $('#q8').val(),
+                    $('#q9').val(),
+                    $('#q10').val()
+                ]
+                var data = {
+                    url: url,
+                    name: name,
+                    photo: photo,
+                    scores: scores
+                }
+
+                $.post(url, data, function(result){
+                    console.log('success', result);
+                }, 'json');
+            });
+        });
+
+
+    </script>
+</body>
+
+</html>
