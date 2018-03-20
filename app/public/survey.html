@@ -220,6 +220,7 @@
             $(".chosen-select").chosen();
 
             $("#friendForm").submit(function(evt){
+                
                 evt.preventDefault();
                 const url = '/api/friends';
                 const name = $('#name').val();
@@ -242,7 +243,7 @@
                     photo: photo,
                     scores: scores
                 }
-
+                
                 $.post(url, data, function(result){
                     console.log('success', result);
                 }, 'json');
