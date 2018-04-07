@@ -33,8 +33,8 @@ require('./app/routing/htmlRoutes.js')(app);
 
 // Start Server
 app.listen(PORT, function() {
-    console.log("App listening on PORT: " + PORT);
-    console.log('  Press CTRL-C to stop\n');
+  console.log("==> 🌎  Listening on port %s. Visit http://localhost:%s/ in your browser.", PORT, PORT);
+  console.log('  Press CTRL-C to stop\n');
   });
 
 
