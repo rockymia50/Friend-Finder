@@ -11,7 +11,7 @@ Use this [Demo](https://neighborhood-amigos.herokuapp.com/)
 
 ** To run locally **
 
-`clone this repo
+`clone this repo`
 
 `npm install`
 
